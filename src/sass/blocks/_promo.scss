@@ -1,0 +1,113 @@
+.promo {
+    min-height: 690px;
+    background: #e4e4cf url('../../img/Pngtreegreen_floatin.svg');
+    position: relative;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 65px;
+        z-index: 20;
+        position: relative;
+        &_link {
+            color:#64701f;
+            font-size: 12px;
+            line-height: 1.55;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:hover {
+                color:#fff;
+            }
+        }
+    }
+    &__title {
+        padding-top: 55px;
+        color: #f6f6ee;
+        font-size: 210px;
+        font-family: 'IrgaSans', sans-serif;
+        line-height: 1.55;
+        font-weight: 400;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        font-stretch: ultra-expanded
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        &_text {
+            color: #000000;
+            font-size: 20px;
+            line-height: 1.55;
+            font-weight: 500;
+            span {
+                color: #64701f;
+                font-size: 28px;
+                line-height: 1.55;
+                font-weight: 700;
+            }
+        }
+        &_img {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-40%);
+            z-index: 8;
+        }
+        &_btns {
+            position: relative;
+        }
+        &_btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 0px;
+            background-color: #64701f;
+            width: 240px;
+            height: 54px;
+            position: relative;
+            z-index: 12;
+            a {
+                color: #ffffff;
+                font-size: 16px;
+                line-height: 1.55;
+                font-weight: 600;
+                letter-spacing: 1px;
+                text-transform: uppercase; 
+                text-decoration: none;
+            }
+        }
+        &_rec {
+            width: 234px;
+            height: 61px;
+            border: 2px solid #f6f6ee;
+            position: absolute;
+            top: 5px;
+            left: 20px;
+            z-index: 10;
+        }
+    }
+    &__social {
+        position: absolute;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        cursor: pointer;
+        img {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.hamburger {
+    display: none;
+}
+	

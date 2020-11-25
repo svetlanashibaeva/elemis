@@ -1,0 +1,42 @@
+@import 'libs/font';
+
+@import 'base/media';
+@import 'base/animations';
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, ul {
+    margin: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 77px;
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    color: #64701f;
+    font-size: 28px;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+@import 'blocks/promo';
+@import 'blocks/components';
+@import 'blocks/stages';
+@import 'blocks/consultation';
+@import 'blocks/bestsellers';
+@import 'blocks/photos';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/pageup';

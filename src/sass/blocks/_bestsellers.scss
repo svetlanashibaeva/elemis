@@ -1,0 +1,75 @@
+.bestsellers {
+    background: #e4e4cf;
+    padding: 50px 0;
+    &__title {
+        color: #f6f6ee;
+        text-align: center;
+    }
+    &__items {
+        margin-top: 60px;
+        padding: 0 10px;
+        display: grid;
+        grid-template-columns: repeat(4,260px);
+        grid-template-rows: minmax(303px,auto);
+        grid-auto-rows: minmax(260px,auto);
+        gap: 30px;
+        justify-content: center;
+    }
+    &__item {
+        cursor: pointer;
+    }
+    &__img {
+        width: 200px;
+        height: 200px;
+    }
+    &__img {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        transition: all 0.5s ease-in;
+        &_img1 {
+            background: url('../../img/50138_superfood_clea (1).png') center center/cover no-repeat;
+            &:hover {
+                background: url('../../img/50138_superfood_clea.jpg') center center/cover no-repeat;
+            }
+        }
+        &_img2 {
+            background: url('../../img/new_50734_superfood_.png') center center/cover no-repeat;
+            &:hover {
+                background: url('../../img/superfood_pdp_tea_mi.jpg') center center/cover no-repeat;
+            }
+        } 
+        &_img3 {
+            background: url('../../img/50161_superfood_faci (2).png') center center/cover no-repeat;
+            &:hover {
+                background: url('../../img/50161_superfood_faci.jpg') center center/cover no-repeat;
+            }
+        }   
+        &_img4 {
+            background: url('../../img/50111_superfood_cica.png') center center/cover no-repeat;
+            &:hover {
+                background: url('../../img/50111_superfood_cica.jpg') center center/cover no-repeat;
+            }
+        }      
+    }
+    &__name {
+        color: #64701f;
+        font-size: 16px;
+        line-height: 1.55;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    &__descr {
+        color: #64701f;
+        margin-top: 8px;
+        font-size: 14px;
+        line-height: 1.55;
+        font-weight: 300;
+    }
+    &__price {
+        margin-top: 12px;
+        font-weight: bold;
+        line-height: 1.55;
+        color: #000;
+    }
+}

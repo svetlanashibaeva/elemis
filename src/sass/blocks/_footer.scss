@@ -1,0 +1,22 @@
+.footer {
+    padding: 60px 0;
+    background-color: #e4e4cf;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        &_link {
+            color: #64701f;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: none;
+        }
+    }
+    &__text {
+        color: #64701f;
+        text-align: center;
+        font-size: 14px;
+        opacity: .7;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+}
