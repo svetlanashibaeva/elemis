@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
     showModal('#shower_gel_item', '#shower_gel');
     showModal('#oil_item', '#oil');
     showModal('#eye_gel_item', '#eye_gel');
-
+    
     
     // gallery
 
@@ -113,3 +113,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+new WOW().init();
